@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:text="Learning modes:"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="LEARING MODE"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="25dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="TEST MODE"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonLearningImageFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickImageFirstLearningMode"
+                android:text="Images First" />
+
+            <Button
+                android:id="@+id/buttonLearningWordsFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word First"
+                android:onClick="onClickTextFirstLearningMode"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonTestImagesFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickImageFirstTestMode"
+                android:text="Images First" />
+
+            <Button
+                android:id="@+id/buttonTestWordsFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickTextFirstTestMode"
+                android:text="Word First" />
+
+            <Button
+                android:id="@+id/buttonTestAudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAudioTestMode"
+                android:text="Audio Test" />
+
+            <Button
+                android:id="@+id/buttonTestWordsSymbols"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickTranlationTestMode"
+                android:text="Translation Test" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Word Learning App</string>
+    <string name="image_first_learning_mode_title">Режим изучения image - text</string>
+
+</resources>
