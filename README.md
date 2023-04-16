@@ -11,5 +11,10 @@ Test mode image first.
 ![2](https://user-images.githubusercontent.com/130363294/232259815-3ca1b3c0-9580-4e98-8f0b-a8950971c9d4.jpg)
 
 
+Test mode word first.
+![4](https://user-images.githubusercontent.com/130363294/232264058-ea563b88-8cf1-4091-b589-cb012f0168bd.jpg)
+
+
+
 A word for learning:
 ![3](https://user-images.githubusercontent.com/130363294/232259819-8aaa6eeb-a27e-4d9d-896d-0dd3119aa16a.jpg)
