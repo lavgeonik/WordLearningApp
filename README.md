@@ -1,5 +1,5 @@
 #
-App for learning words with tests (pictures and words).
+App for learning words through tests (pictures and words).
 
 
 
